@@ -2,6 +2,9 @@
 A python module for generating [rabin fingerprints](http://en.wikipedia.org/wiki/Rabin_fingerprint).
 
 The C extension implementation is based on [rabin-fingerprint-c](https://code.google.com/p/rabin-fingerprint-c/) with some bugs fixed.
+===================================================================
+This module is in fact for Content Defined Chunks dividing. You may read
+read_rabin_block in src/rabin_polynomial.c.
 
 ## Features
 * Fast fingerprint generation.
